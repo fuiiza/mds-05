@@ -24,9 +24,19 @@
     <input type="checkbox" id="is_admin" name="is_admin" value=""><br>
 
     <label for="anotacoes">Anotações: </label>
-    <textarea id="anotacoes" name="anotacoes" placeholder="digite suas anotações"></textarea><br>
+    <textarea id="anotacoes" name="anotacoes" rows="5" cols="30"  placeholder="digite sua anotação">Anotação</textarea><br>
 
-    <button>Enviar</button>
+    <label for="cidade">Cidade <br>
+        <select name="cidade" id="cidade"> 
+            <option value="AM">Manaus</option>
+            <option value="SP">São Paulo</option>
+            <option value="EX">Exterior</option>
+        </select>
+    </label>
+
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+    <button type="button" onclick="alert('olá!')">Clique aqui</button>
 </form>
 
 
